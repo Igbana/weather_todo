@@ -1,0 +1,57 @@
+<MD3Card>:
+    line_color: [0.2,0.2,0.2,0.8]
+    style: 'outlined'
+    md_bg_color: '#f4dedc'
+    size_hint: 0.9, 0.9
+    pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+    # MDBoxLayout:
+    #     orientation: 'vertical'
+    #     MDLabel:
+    #         id: lbl1
+    #         text: app.weather_info[0]
+    #     MDLabel:
+    #         id: lbl2
+    #         text: app.weather_info[1]
+    # MDBoxLayout:
+    #     orientation: 'vertical'
+    #     MDLabel:
+    #         id: lbl3
+    #         text: f"{app.weather_info[2].split(' ')[0]}{app.weather_info[2].split(' ')[1]}"
+    #     MDLabel:
+    #         id: lbl4
+    #         text: f"{app.weather_info[2].split(' ')[2]}{app.weather_info[2].split(' ')[3]}"
+    
+
+<HomeScreen>:
+    MDBoxLayout:
+        orientation: 'vertical'
+        spacing: '10dp'
+        MDTextField:
+            id: mee
+            hint_text: 'Location'
+            size_hint_x: 0.8
+            pos_hint: {'center_x': 0.5,'center_y': 0.5}
+            # on_text_validate:
+            #     app.get_weather(self.text, 'in three days')
+        Carousel:
+            size_hint_y: None
+            height: 160
+            MD3Card:
+                location: 'Ogoja'
+                day: 'Tomorrow'
+        ScrollView:
+            MDList:
+                OneLineListItem:
+                    text: "mee.text"
+                OneLineListItem:
+                    text: 'Test'
+                OneLineListItem:
+                    text: 'Test'
+                OneLineListItem:
+                    text: 'Test'
+                OneLineListItem:
+                    text: 'Test'
+                OneLineListItem:
+                    text: 'Test'
+                OneLineListItem:
+                    text: 'Test'

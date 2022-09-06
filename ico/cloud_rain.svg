@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 24 24"
+   id="weather-icon-4200"
+   data-reactroot=""
+   version="1.1"
+   sodipodi:docname="cloud_rain.svg"
+   inkscape:export-filename="/home/neon/Desktop/icons(80x80)/cloud_rain.png"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata4648">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="751"
+     inkscape:window-height="480"
+     id="namedview4646"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="weather-icon-4200" />
+  <defs
+     id="defs4633">
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="50%"
+       y2="100%"
+       id="svg__2661468652__a">
+      <stop
+         stop-color="#3FCEF5"
+         stop-opacity="0.4"
+         offset="0%"
+         id="stop4617" />
+      <stop
+         stop-color="#0072F5"
+         offset="100%"
+         id="stop4619" />
+    </linearGradient>
+    <linearGradient
+       x1="50%"
+       y1="0%"
+       x2="50%"
+       y2="100%"
+       id="svg__2661468652__b">
+      <stop
+         stop-color="#EFEFEF"
+         offset="0%"
+         id="stop4622" />
+      <stop
+         stop-color="#D9D9D9"
+         offset="100%"
+         id="stop4624" />
+    </linearGradient>
+    <linearGradient
+       x1="50%"
+       y1="50%"
+       x2="100%"
+       y2="50%"
+       id="svg__2661468652__d">
+      <stop
+         stop-opacity="0"
+         offset="0%"
+         id="stop4627" />
+      <stop
+         stop-opacity="0.03"
+         offset="100%"
+         id="stop4629" />
+    </linearGradient>
+    <path
+       d="M12.828 0a7.636 7.636 0 00-6.14 3.053 5.825 5.825 0 00-1.033-.091C2.532 2.962 0 5.432 0 8.48c0 2.912 2.311 5.298 5.241 5.504V14h14.345C22.024 14 24 12.071 24 9.692c0-2.196-1.685-4.01-3.862-4.274C19.248 2.293 16.313 0 12.828 0z"
+       id="svg__2661468652__c" />
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g4643">
+    <path
+       d="M0 0h24v24H0z"
+       id="path4635" />
+    <path
+       d="M13 16v6a1 1 0 01-2 0v-6h2zm5 0v3a1 1 0 01-2 0v-3h2zM8 16v3a1 1 0 01-2 0v-3h2z"
+       fill="url(#svg__2661468652__a)"
+       id="path4637" />
+    <use
+       fill="url(#svg__2661468652__b)"
+       xlink:href="#svg__2661468652__c"
+       id="use4639" />
+    <use
+       fill="url(#svg__2661468652__d)"
+       xlink:href="#svg__2661468652__c"
+       id="use4641" />
+  </g>
+</svg>
